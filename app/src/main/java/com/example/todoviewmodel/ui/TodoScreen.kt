@@ -35,12 +35,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.todoviewmodel.R
 import com.example.todoviewmodel.theme.TODOViewModelTheme
+import com.example.todoviewmodel.data.Todo
 
-data class Todo(
-  val id: Long,
-  val title: String,
-  val isDone: Boolean = false,
-)
 
 @Composable
 fun TodoScreen(modifier: Modifier = Modifier) {
